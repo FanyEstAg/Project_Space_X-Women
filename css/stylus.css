@@ -1,0 +1,30 @@
+#mainNav {
+  background-color: #145d87;
+}
+
+.masthead {
+  background-image: url('../../assets/img/huracanes1.jpg');
+}
+
+body {
+  background-color: rgba(18,38,59) !important;
+}
+
+a {
+  color: #20dad8;
+}
+
+label {
+  font-size: 20px;
+}
+
+.form-control {
+  padding: 0;
+}
+
+.btn.btn-primary.btn-lg.btn-block {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
