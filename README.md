@@ -1,4 +1,4 @@
-# Project_Space_X-Women
+# NASA SPACEAPPS CHALLENGE - PROJECT
 > from the Space for Change challenge of the NASA Space Apps Challenge hackathon. 
 
 ## 1. Project Title: **Justice Storm**
@@ -37,5 +37,10 @@ For the development of the tool, technologies for web development (HTML, JavaScr
 
 Inspired by Azure and Web Technologies..
 
-* [Documentation] (https://azcuammx-my.sharepoint.com/:f:/g/personal/al2172003586_azc_uam_mx/Eh3Rwdp_VodAtl495Y3plRoBPxIQQTmU6rM4wKFwiPKioQ?e=2WhKmn)
+* _App service_ - display application + page link
+* _Logic Apps_ - Flow to extract tweets according to hurricane hashtag and analyze sentiments
+* _TextAnalytics_ - Analyze sentiment from tweets
+* _Power BI_ - Analysis and visualization of data
+
+* [Documentation](https://azcuammx-my.sharepoint.com/:f:/g/personal/al2172003586_azc_uam_mx/Eh3Rwdp_VodAtl495Y3plRoBPxIQQTmU6rM4wKFwiPKioQ?e=2WhKmn)
 
