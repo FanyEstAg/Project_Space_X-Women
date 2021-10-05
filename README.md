@@ -52,6 +52,6 @@ For the development of the tool, technologies for web development (HTML, JavaScr
 * **Adriana Baeza** - *Web development, Research, Documentation* - [Adri](https://github.com/AGBaez094)
 * **Jimena Álvarez** - *Research, Science, Documentation* - [Jime](https://github.com/5inope)
 
-With ❤️ by X-women Team
+With ❤️ by **X-WOMEN** Team
 
 
