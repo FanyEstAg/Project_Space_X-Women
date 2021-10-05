@@ -4,6 +4,21 @@
 
 body {
   background-color: rgba(18,38,59) !important;
+  color: var(--bs-body-bg); /*impide que la letra se vuelva negra por la stylesheet de Boostrap 5.1*/
+}
+
+.btn{
+  line-height: 0;
+}
+
+.btn.btn-link.btn-circle{
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+#parrafo{
+  text-align: justify;
+  font-size: 18px;
 }
 
 a {
@@ -43,6 +58,5 @@ label {
 
 #paper{
   min-width: 120px;
-  max-height: 300px;
+  max-height: 200px;
 }
-

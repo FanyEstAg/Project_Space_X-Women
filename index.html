@@ -7,6 +7,7 @@
     <title>Home - Justice Storm</title>
     <link rel="icon" sizes="32x32" href="resources/nature.svg"/>
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
     <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
@@ -15,11 +16,19 @@
 
 <body id="page-top">
     <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#">X-Women</a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#">
+                <img src="resources/nature-1.svg" width="50" height="50" alt="Imagen de logo">
+                Justice Storm
+            </a>
+            <button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation" value="Menu">
+                <i class="fa fa-bars"></i>
+            </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link active js-scroll-trigger" href="#about">Maps</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="#views">Views</a></li>
                     <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="#download">Statistics</a></li>
                     <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
@@ -34,7 +43,11 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h1 class="brand-heading">Justice Storm</h1>
-                        <p class="intro-text">For a free enviromental injustices World <br>Created with Love.</p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down animated"></i></a></div>
+                        <p class="intro-text">For a free enviromental injustices World <br>Created with Love.</p>
+                        <!--<a class="btn btn-link btn-circle" role="button" href="#about">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -55,25 +68,80 @@
         </div>
     </section>
 
+    <!--Seccion de vistas-->
+    <section id="views" class="content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 col-lg-12 mx-auto">
+                  <img class="img-fluid mb-4" src="resources/video.svg" id="paper">
+                  <h1>Hurricane Views</h1>
+                  <p>Some satellite views of the passing of a hurricane in Mexico</p>
+                  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="resources/hernan_1.gif" class="d-block w-100" alt="Huracan Hernan">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="resources/hernan_bc_sin_nay_son.gif" class="d-block w-100" alt="Huracan Hernan">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="resources/hernan_guerrero_colima.gif" class="d-block w-100" alt="Huracan Hernan">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-12 col-lg-12"><br>
+                  <h1>Risk Zones</h1>
+                  <p id="parrafo">It shows some of the states affected by Hurricane Hernan in 2020, the affected states were: Jalisco, Nayarit, Colima, Sonora, Sinaloa, Guerrero, Baja California North and South.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--Seccion de estadísticas-->
     <section id="download" class="download-section content-section text-center" style="background-image:url('resources/downloads-bg.jpg');">
         <div class="container">
             <div class="col-lg-8 mx-auto">
+                <img class="img-fluid mb-4" src="resources/data-1.svg" id="paper">
                 <h1>Statistics</h1>
-                <p>Power BI and</p>
+                <p>Thanks to the power of Power BI and Text Analytics, we help you make the information useful to you.</p>
             </div>
             <!--Replica-->
             <div class="row">
                 <!--Fanny, Ale, Lizzie-->
-                <div class="col col-12 col-lg-8">
-                    <h1>Fany and Ale graphics&nbsp;</h1>
+                <div class="col col-12 col-lg-12">
+                    <h1>Power BI graphics&nbsp;</h1>
                     <!--Se comentó temporalmente para poder trabajar la aplicación sin problemas de carga, descomentar antes de entregar-->
-                    <iframe width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMDA5OGZjNzctNDIwZS00OTQ2LThkNjYtMzZjMGU3ODU0YTgzIiwidCI6IjEwMGI4NzRhLTQ1MTAtNGRhYS1iZjFjLTU5N2QxYzUzNTcyNyIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+                    <iframe width="900" height="450" src="https://app.powerbi.com/view?r=eyJrIjoiMDA5OGZjNzctNDIwZS00OTQ2LThkNjYtMzZjMGU3ODU0YTgzIiwidCI6IjEwMGI4NzRhLTQ1MTAtNGRhYS1iZjFjLTU5N2QxYzUzNTcyNyIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
                 </div>
-                <div class="col col-12 col-lg-4">
-                    <h1>Lizzie Graphics</h1>
+            </div>
+            <div class="row">
+                <div class="col col-12 col-lg-12"><br>
+                  <h1>External factors</h1>
+                  <p id="parrafo">Variables were extracted from the 2019 economic census on expenses and income for different regions of the country, specifically in the states and municipalities most affected by the passage of Hurricane Hernán in 2020, and that are prior to the environmental phenomenon, in order to identify the causes of inequality and injustice to the most vulnerable communities in these areas.<br>The variables include data on paid and unpaid personnel, who depend on a social reason or are engaged in informal work, educational and health services to which they have access, detailing the type of health service, the type of economic activity in each State, emphasizing mainly rural industries and predominant commerce in areas with fewer opportunities.</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col col-12 col-lg-12">
                     <!--Se comentó temporalmente para poder trabajar la aplicación sin problemas de carga-->
-                    <!--<iframe frameborder="0" height="650" src="http://www.atlasnacionalderiesgos.gob.mx/portal/fenomenos/" width="100%"></iframe>-->
+                    <iframe width="900" height="450" src="https://app.powerbi.com/view?r=eyJrIjoiOTYzODkyOGYtMzBhMy00YTg2LTk1OGMtNjIyOWVlZmU4ODA2IiwidCI6IjEwMGI4NzRhLTQ1MTAtNGRhYS1iZjFjLTU5N2QxYzUzNTcyNyIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-12 col-lg-12"><br>
+                  <h1>Sentiment analysis</h1>
+                  <p id="parrafo">In the following visualizations, a graphic analysis is presented based on the tweets extracted from the hashtag (#) mentioning Hurricane Hernán (#huracanHernan) this in order to know the opinion of the citizens, submitting these tweets to an analysis of feelings to observe the feelings of the population.<br>A map visualization is also presented to identify where the tweet originated from along with data such as sentiment and text. To measure the impact of this analysis, we also show the number of retweets extracted, that is, how many times the same publication has been shared, and the number of tweets analyzed.</p>
                 </div>
             </div>
         </div>
@@ -84,20 +152,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
+                    <img class="img-fluid mb-4" src="resources/personal.svg" id="paper">
                     <h2>Contact us</h2>
-                    <p>If you have some questions you can <a href="#">&nbsp;Write Us</a>&nbsp;for more information!</p>
+                    <p>If you have some questions you can &nbsp;write us&nbsp;for more information!</p>
                     <ul class="list-inline banner-social-buttons">
                         <li class="list-inline-item">&nbsp;<a class="btn btn-outline-info btn-lg" type="button" href="https://github.com/FanyEstAg/Project_Space_X-Women"><i class="fa fa-github fa-fw"></i><span class="network-name">&nbsp;GitHub Repository</span></a></li>
                     </ul>
                 </div>
             </div>
         </div>
+        <br><br>
         <section id="team">
-            <h2 class="text-uppercase" style="text-align: center;">EQUIPO DE TRABAJO</h2>
+            <h2 class="text-uppercase" style="text-align: center;">WORK TEAM</h2>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4" style="margin-bottom: 0px;margin-top: 50px;">
-                        <div class="team-member"><img class="rounded-circle mx-auto" src="resources/Foto-Fany1.png">
+                        <div class="team-member"><img class="rounded-circle mx-auto img-fluid mb-4" src="resources/Foto-Fany1.png">
                             <h4>Fany Estrada</h4>
                             <p class="text-muted">Analítica y visualización de Datos, Manejo de DataSets</p>
                             <ul class="list-inline social-buttons">
@@ -108,7 +178,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4" style="margin-bottom: 0px;margin-top: 50px;">
-                        <div class="team-member"><img class="rounded-circle mx-auto" src="resources/Foto-Ale.png">
+                        <div class="team-member"><img class="rounded-circle mx-auto img-fluid mb-4" src="resources/Foto-Ale.png">
                             <h4>Alejandra Castillo</h4>
                             <p class="text-muted">Analítica y Visualización de Datos, Manejo de DataSets, Desarrollo</p>
                             <ul class="list-inline social-buttons">
@@ -120,7 +190,7 @@
                     </div>
 
                     <div class="col-sm-4" style="margin-bottom: 0px;margin-top: 50px;">
-                        <div class="team-member"><img class="rounded-circle mx-auto" src="resources/Foto-Moni.jpg">
+                        <div class="team-member"><img class="rounded-circle mx-auto img-fluid mb-4" src="resources/Foto-Moni.jpg">
                             <h4>Monica Portillo</h4>
                             <p class="text-muted">Desarrollo Web, Diseño, Documentación</p>
                             <ul class="list-inline social-buttons">
@@ -132,7 +202,7 @@
                     </div>
 
                     <div class="col-sm-4" style="margin-bottom: 0px;margin-top: 50px;">
-                        <div class="team-member"><img class="rounded-circle mx-auto" src="resources/Foto-Lizzie.jpg">
+                        <div class="team-member"><img class="rounded-circle mx-auto img-fluid mb-4" src="resources/Foto-Lizzie.jpg">
                             <h4>Lizzie Lucas</h4>
                             <p class="text-muted">Analítica y Visualización de Datos, Investigación, Documentación</p>
                             <ul class="list-inline social-buttons">
@@ -144,7 +214,7 @@
                     </div>
 
                     <div class="col-sm-4" style="margin-bottom: 0px;margin-top: 50px;">
-                        <div class="team-member"><img class="rounded-circle mx-auto" src="resources/FotoAG1.jpeg">
+                        <div class="team-member"><img class="rounded-circle mx-auto img-fluid mb-4" src="resources/FotoAG1.jpeg">
                             <h4>Adri Baeza</h4>
                             <p class="text-muted">Desarrollo Web, Investigacion, Documentación</p>
                             <ul class="list-inline social-buttons">
@@ -156,7 +226,7 @@
                     </div>
 
                     <div class="col-sm-4" style="margin-bottom: 0px;margin-top: 50px;">
-                        <div class="team-member"><img class="rounded-circle mx-auto" src="resources/Foto-Jime.jpg">
+                        <div class="team-member"><img class="rounded-circle mx-auto img-fluid mb-4" src="resources/Foto-Jime.jpg">
                             <h4>Jimena Álvarez</h4>
                             <p class="text-muted">Investigación, Ciencia, Documentación</p>
                             <ul class="list-inline social-buttons">
@@ -180,6 +250,7 @@
     </footer>
     <script src="js/jquery.min.js"></script>
     <script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="js/grayscale.js"></script>
     <!--Biblioteca de iconos de Feather-->
