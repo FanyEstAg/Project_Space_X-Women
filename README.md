@@ -50,7 +50,7 @@ For the development of the tool, technologies for web development (HTML, JavaScr
 * **Elizabeth Lucas** - *Development in Azure, Analytics and data visualization, Research* -  [LizzyLucas](https://github.com/LizzyLucas)
 * **Alejandra Castillo** - *Data analytics and visualization, Dataset management, Development* - [Ale](https://github.com/aleepsy)
 * **Adriana Baeza** - *Web development, Research, Documentation* - [Adri](https://github.com/AGBaez094)
-* **Jimena Álvarez* - *Research, Science, Documentation* - [Jime](https://github.com/5inope)
+* **Jimena Álvarez** - *Research, Science, Documentation* - [Jime](https://github.com/5inope)
 
 With ❤️ by X-women Team
 
