@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Justice Storm</title>
+    <link rel="icon" sizes="32x32" href="resources/nature.svg"/>
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
@@ -19,12 +20,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link active js-scroll-trigger" href="#about">Maps</a></li>
-                    <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="#download">Download</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="#download">Statistics</a></li>
                     <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!--Seccion de bienvenida-->
     <header class="masthead" style="background-image: url('resources/huracanes.jpg');">
         <div class="intro-body">
             <div class="container">
@@ -36,47 +38,44 @@
             </div>
         </div>
     </header>
+    <!--Seccion de mapas-->
     <section id="about" class="content-section text-center">
         <div class="container">
-
-
-
             <div class="row">
-
-                <div class="col col-12 col-lg-6">
-
-                  <iframe width="600" height="373.5" src="https://www.powerbi.com/view?r=eyJrIjoiMTkyNGZjODctZGYyZC00ODNkLWI1NzQtYjdjNDEzNGEwNzYyIiwidCI6IjEwMGI4NzRhLTQ1MTAtNGRhYS1iZjFjLTU5N2QxYzUzNTcyNyIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
-                    <h1>Before&nbsp;</h1>
-                </div>
-                <div class="col col-12 col-lg-6">
+                <div class="col col-12 col-lg-12 mx-auto">
+                  <img class="img-fluid mb-4" src="resources/consultando.svg" id="paper">
+                  <h1>National Risk Atlas</h1>
+                  <p>National Risk Atlas is the official map provides Mexican Government for visualize the principal risks in the territory. </p>
+                  <!--Se comentó temporalmente para poder trabajar la aplicación sin problemas de carga, descomentar antes de entregar-->
                   <iframe frameborder="0" height="650" src="http://www.atlasnacionalderiesgos.gob.mx/portal/fenomenos/" width="100%"></iframe>
-                    <h1>After</h1>
                 </div>
             </div>
-
-           <!--Replica-->
-           <div class="row">
-               <!--Fanny, Ale, Lizzie-->
-               <div class="col col-12 col-lg-6">
-
-                 <iframe width="600" height="373.5" src="https://www.powerbi.com/view?r=eyJrIjoiMTkyNGZjODctZGYyZC00ODNkLWI1NzQtYjdjNDEzNGEwNzYyIiwidCI6IjEwMGI4NzRhLTQ1MTAtNGRhYS1iZjFjLTU5N2QxYzUzNTcyNyIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
-                   <h1>Before&nbsp;</h1>
-               </div>
-               <div class="col col-12 col-lg-6">
-                 <iframe frameborder="0" height="650" src="http://www.atlasnacionalderiesgos.gob.mx/portal/fenomenos/" width="100%"></iframe>
-                   <h1>After</h1>
-               </div>
-           </div>
-
         </div>
     </section>
+    <!--Seccion de estadísticas-->
     <section id="download" class="download-section content-section text-center" style="background-image:url('resources/downloads-bg.jpg');">
         <div class="container">
             <div class="col-lg-8 mx-auto">
-                <h1>Download Grayscale</h1>
-                <p>You can download Grayscale for free on the preview page.</p><button class="btn btn-primary btn-lg btn-default" type="button">visit download page</button></div>
+                <h1>Statistics</h1>
+                <p>You can download Grayscale for free on the preview page.</p>
+            </div>
+            <!--Replica-->
+            <div class="row">
+                <!--Fanny, Ale, Lizzie-->
+                <div class="col col-12 col-lg-8">
+                    <h1>Fany and Ale graphics&nbsp;</h1>
+                    <!--Se comentó temporalmente para poder trabajar la aplicación sin problemas de carga, descomentar antes de entregar-->
+                    <!--<iframe width="600" height="373.5" src="https://www.powerbi.com/view?r=eyJrIjoiMTkyNGZjODctZGYyZC00ODNkLWI1NzQtYjdjNDEzNGEwNzYyIiwidCI6IjEwMGI4NzRhLTQ1MTAtNGRhYS1iZjFjLTU5N2QxYzUzNTcyNyIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>-->
+                </div>
+                <div class="col col-12 col-lg-4">
+                    <h1>Lizzie Graphics</h1>
+                    <!--Se comentó temporalmente para poder trabajar la aplicación sin problemas de carga-->
+                    <!--<iframe frameborder="0" height="650" src="http://www.atlasnacionalderiesgos.gob.mx/portal/fenomenos/" width="100%"></iframe>-->
+                </div>
+            </div>
         </div>
     </section>
+    <!--Sección de Links/contacto-->
     <section id="contact" class="content-section text-center">
         <div class="container">
             <div class="row">
@@ -84,15 +83,13 @@
                     <h2>Contact us</h2>
                     <p>If you have some questions you can <a href="#">&nbsp;Write Us</a>&nbsp;for more information!</p>
                     <ul class="list-inline banner-social-buttons">
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-google-plus fa-fw"></i><span class="network-name">&nbsp; Google+</span></button></li>
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-twitter fa-fw"></i><span class="network-name">&nbsp;Twitter</span></button></li>
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-github fa-fw"></i><span class="network-name">&nbsp;github</span></button></li>
+                        <li class="list-inline-item">&nbsp;<a class="btn btn-outline-info btn-lg" type="button" href="https://github.com/FanyEstAg/Project_Space_X-Women"><i class="fa fa-github fa-fw"></i><span class="network-name">&nbsp;GitHub Repository</span></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <div class="map-clean"><iframe allowfullscreen="" frameborder="0" src="https://cdn.bootstrapstudio.io/placeholders/map.html" width="100%" height="450"></iframe></div>
+    <!--<div class="map-clean"><iframe allowfullscreen="" frameborder="0" src="https://cdn.bootstrapstudio.io/placeholders/map.html" width="100%" height="450"></iframe></div>-->
     <footer>
         <div class="container text-center">
             <p>Copyright ©&nbsp;X-Women 2021</p>
