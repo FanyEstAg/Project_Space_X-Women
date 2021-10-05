@@ -1,10 +1,11 @@
 # NASA SPACEAPPS CHALLENGE - PROJECT
-> from the Space for Change challenge of the NASA Space Apps Challenge hackathon. 
+> Space for Change
 
 ## 1. Project Title: **Justice Storm**
 ## Summary
 *Justice Storm* arises from the need to find vulnerable areas that have been devastated by natural disasters. Initially, our web application focuses on the perspective of the before and after the hurricanes in Mexico, which impact different communities and are of different magnitudes. Therefore, we seek to provide access to truthful, dynamic and quality information that, when passing the filter of our data analysis, exposes areas that have not yet been heard derived from demographic and socioeconomic aspects. In addition, we highlight that our web application is designed to capture data in real time, that is, we are able to analyze positive and / or negative feelings in users who make tweets about natural disasters using *Hashtags*.
 * [Demo (slides)](https://www.canva.com/design/DAErt14t8hw/hUxlA6EjjML6VR_2UGAgEg/view?utm_content=DAErt14t8hw&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton)
+* [Pitch](https://www.canva.com/design/DAEr9QBjjrE/zUcVwCTL4EC-VxG2e9XUrg/watch?utm_content=DAEr9QBjjrE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 ## 2. Detailed Project Description ⚙️
 The solution that we have proposed for the Space for Change challenge is based on the use of technologies, since we know the high impact, scope and easy access that they provide in the height and breadth of the world, apart from that, we faithfully believe that technology It can also contribute to the injustice, environment and society part and generate changes in favor of the above.
@@ -45,12 +46,12 @@ For the development of the tool, technologies for web development (HTML, JavaScr
 
 ## 5. Authors ✒️
 
-* **Mónica Portillo** - *Web development, Design, Documentation* -  [Moni](https://github.com/monicaps)
-* **Estefania Estrada** - *Data analytics and visualization, Dataset Management* -  [FanyEstrada](https://github.com/FanyEstrada)
-* **Elizabeth Lucas** - *Development in Azure, Analytics and data visualization, Research* -  [LizzyLucas](https://github.com/LizzyLucas)
-* **Alejandra Castillo** - *Data analytics and visualization, Dataset management, Development* - [Ale](https://github.com/aleepsy)
-* **Adriana Baeza** - *Web development, Research, Documentation* - [Adri](https://github.com/AGBaez094)
-* **Jimena Álvarez** - *Research, Science, Documentation* - [Jime](https://github.com/5inope)
+* **Mónica Portillo** - *Web development, Design, Documentation* -  [Moni Portillo](https://github.com/monicaps)
+* **Estefania Estrada** - *Data analytics and visualization, Dataset Management* -  [Fany Estrada](https://github.com/FanyEstrada)
+* **Elizabeth Lucas** - *Development in Azure, Analytics and data visualization, Research* -  [Lizzy Lucas](https://github.com/LizzyLucas)
+* **Alejandra Castillo** - *Data analytics and visualization, Dataset management, Development* - [Ale Castillo](https://github.com/aleepsy)
+* **Adriana Baeza** - *Web development, Research, Documentation* - [Adri Baeza](https://github.com/AGBaez094)
+* **Jimena Álvarez** - *Research, Science, Documentation* - [Jime Álvarez](https://github.com/5inope)
 
 With ❤️ by **X-WOMEN** Team
 
